@@ -1,0 +1,38 @@
+{
+  "name": "tp-17_03",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Abdoullah",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "mocha",
+    "coverage": "nyc mocha",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "babel-loader": "^10.0.0",
+    "chai": "^5.2.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-webpack-plugin": "^5.0.0",
+    "husky": "^8.0.0",
+    "mocha": "^11.1.0",
+    "nyc": "^17.1.0",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
